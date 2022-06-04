@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.griLLAindex    
+     {
+        
+        height: 100vh; 
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows:  auto auto auto auto;
+        grid-template-areas: " header1 header1 header1 "
+                            "sectION1 sectION1 sectION1  "
+                            " footer1 footer1 footer1  "
+                            " footer12 footer12 footer12 "
+    }
+    
+    .header1 {
+       
+        background: rgb(231,174,238);
+background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1) 100%);
+        
+        grid-area: header1 ;
+       
+        display : flex;
+    
+        height: 168px;
+        
+        align-items: center;
+       justify-content: space-around;
+    }
+    
+  
+    
+    
+    
+   
+
+/*  probando grilla
+.header1 {
+    background-color: #FBF8F1;
+    display : flex;
+
+    height: 168px;
+    
+    align-items: center;
+   justify-content: space-around;
+}
+*/
+
+.headerh1 {
+    
+    box-sizing: border-box;
+    font-size: -webkit-xxx-large;
+    padding: 40px;
+
+
+ 
+  
+   
+ 
+    
+   
+  
+   
+    
+}
+.nav1   {
+    display: flex;
+ 
+}
+.ul1                {
+    display: flex;
+    
+}
+.ulli   {
+    display: flex;
+    border: solid 1px black;
+    
+   
+    border-radius: 7px;
+     padding: 6px;
+     margin: 44px;
+    
+  
+}
+.ullia  {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    font-size: 25px;
+    transition: font-size 2s ;
+   
+}
+.ullia:hover  {
+    font-size: 40px ;
+}
+
+/* aca */
+
+
+
+
+/*
+@media screen and (max-width: 1210px)    {
+    
+    .header1 {
+        background-color: #FBF8F1;
+        display: flex;
+       
+        
+        flex-direction: column;
+        align-items: center;
+      }      
+}
+@media screen and (max-width:1210px){
+    .headerh1 {
+    
+        box-sizing: border-box;
+        font-size: -webkit-xxx-large;
+        padding: 20px;
+    
+        border: solid 1px black;
+      
+      
+           }
+      
+    
+}
+@media screen and (max-width:1210px)    {
+    
+    .ulli   {
+        display: flex;
+        border: solid 1px black;
+        
+       background-color: #F7ECDE;
+        border-radius: 7px;
+        
+         margin: 10px;  }
+    
+    
+    }
+@media screen and (max-width: 480px){
+
+  .header1 {
+    background-color: #FBF8F1;
+    display: flex;
+   
+    
+    flex-direction: column;
+    align-items: center;
+  }      
+}
+ 
+ */
+
+
+.sectION1 {
+ 
+    grid-area: sectION1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+    .article12 {
+        display: flex;
+        justify-content: flex-start;
+        background-image: url(./super2.jpg);
+        background-size: cover;
+        opacity: 0.7;
+        height: 500px;
+    }
+
+    
+
+ .articlE1  {
+   
+     background-color: #f4d7c6 ;
+ }
+ 
+    
+
+
+
+.divmaiN    {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 30px;
+}
+    
+
+.inicioh2 {
+    display: flex;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    /* margin-top: 200px; */
+    /* margin-right: 200px; */
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+
+
+/* 
+.imagenprinci   {
+    display: flex;
+    
+    border-radius: 20px;
+ margin-top: 5%;
+
+   width:100%;
+  
+}
+ */
+.imagendivmaiN  {
+    margin: 40px;
+    height: 200px;
+   
+   
+}
+
+.sectION1   {
+    background-color:#F7ECDE ;
+}
+
+.divgetwaves    {
+ background-color:  #f4d7c6 ;
+}
+/* media queris */
+
+
+
+@media screen and (max-width:1216px)    { 
+  
+    .header1 {
+       
+        background: rgb(231,174,238);
+background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1) 100%);
+        
+        grid-area: header1 ;
+       
+        display : flex;
+    
+        height: 168px;
+        
+        align-items: center;
+       justify-content: space-around;
+       flex-direction: column;
+    }
+    
+    .headerh1 {
+    
+        box-sizing: border-box;
+        font-size: -webkit-xxx-large;
+        padding: 1px; 
+        margin-top:40px;
+    }
+    
+    }
+
+    @media screen and (max-width:800px)     {
+        .article12 {
+            display: flex;
+            justify-content: flex-start;
+            background-image: url(./super2.jpg);
+            background-size: cover;
+            opacity: 0.7;
+            height: 350px;
+        }
+
+    }
+
+
+
+/* mediaqueri
+@media  screen and (max-width:1000px){
+    .imagenprinci   {
+        display: flex;
+        
+        border-radius: 20px;
+     margin-top: 5%;
+      margin-left: 2px;
+      margin-right: 50px;
+       width: 880px;    }
+    
+}
+@media screen and (max-width:1000px){
+    .inicioh2 {
+        display: flex;
+        position: absolute;
+        
+        font-size: 50px;
+        
+        
+        margin-left:0px;
+        margin-top: 100px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 480px)    {
+    .inicioh2 {
+        display: flex;
+        position: absolute;
+        
+        font-size:30px;
+     
+        margin-left: 100px;
+        margin-top: 50px;
+        
+    }
+}
+ */
+/*  */
+.footer1    {
+    grid-area: footer1  ;
+    display: flex;
+    background-color: #EBD8C3;
+    
+}
+.footer1p   {
+    background-color: #E9DAC1;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.fiambreria     {
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(164, 164, 204);
+    padding: 70px;
+    
+}
+.imagenfiambreria   {
+    background-color: aliceblue;
+    
+    margin: 10px;
+    text-align: center;
+    border: 2px solids black
+
+}
+.maincontacto   {
+    display: flex;
+    background-color: #85586F;
+    
+    justify-content: center;
+
+}
+.infopersonal   {
+    background-color: rgb(136, 158, 151);
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    border: solid; 
+
+
+   background-color: rgb(204, 155, 155);
+    height:50px;
+}
+.divfoter1{
+    margin: 30px;
+  
+    
+}
+.ulfoter1   {
+  
+   
+    
+}
+.lifoter1 {
+    list-style: none;
+    font-size: 20px;
+
+}
+/*  */ 
+.footer12 {
+    
+    grid-area: footer12 ;
+}
+
+.divfootER  {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+   
+}
+.ifraMEDIV {
+  margin: 20px;
+    
+}
+.sectioNALMACEN {
+    background-color:  #f4d7c6;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sectioNalmaceN{
+  
+   
+
+}
+.imgsectionalmaceN  {
+    width: 100%;
+}
+.diVaalmacen1    {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    
+    
+    border-radius: 10px;
+   padding: 6px;
+    margin: 10px;
+}
+.paceites   {
+   font-size:20px;
+   font-weight: bolder;
+}
+.botoN1 {
+    font-size:20px;
+    font-weight: bolder;
+  
+    background-color:#c58d7c;
+    border: none;
+    border-radius: 20%;
+    margin-left: 10%;
+}
+/*  EMPIEZO A UZAR GRILLA */
+/* 
+.BORDEELECTRO   {
+
+    border: solid 1px black;
+} */
+/* 
+.articlEelectrO {
+    background-color: #F7ECDE;
+    height: 100vh;
+    display: grid;
+   
+    grid-template-rows:400px auto 5fr 20fr 30fr;
+  grid-template-columns:30% 50% auto  5fr 20fr;
+  grid-template-areas: "sectiIONELECTRO  maiNelectrO maiNelectrO  "
+                        "sectiIONELECTRO  maiNelectrO maiNelectrO  "
+                        "sectiIONELECTRO  sectionelecTRO1 sectionelecTRO1  "
+                       " SecTIonelectro2   SecTIonelectro2 SecTIonelectro2 "
+                       " footer1     footer1   footer1     "
+}
+
+
+
+#sectiIONELECTRO    {
+   grid-area: sectiIONELECTRO;
+   display: flex;
+   width: 100%;
+
+  
+}
+#sectionelecTRO1    {
+    grid-area: sectionelecTRO1 ;
+}
+
+#maiNelectrO    {
+    grid-area:maiNelectrO ;
+}
+ 
+#SecTIonelectro2    {
+    grid-area: SecTIonelectro2 ;
+}
+
+#FoterElectRo   {
+    grid-area:footer1 ;
+}
+.imgelctrO1     {
+    width: 100%;
+    
+}
+ 
+.ulImageS   {
+    display: flex;
+    list-style-type: none;
+}
+
+.liImageS   {
+    width: 100%;
+    
+  
+}
+.imGsecTIon {
+    width: 100%;
+}
+@media screen and (max-width:900px) {
+
+    .articlEelectrO {
+        background-color: #F7ECDE;
+        height: 100vh;
+        display: grid;
+       
+        grid-template-rows:400px auto 5fr;
+      grid-template-columns:30% 50% auto;
+      grid-template-areas: "sectiIONELECTRO   sectiIONELECTRO sectiIONELECTRO "
+                            " sectionelecTRO1  sectionelecTRO1 sectionelecTRO1 "
+                            " maiNelectrO   maiNelectrO  maiNelectrO"
+                           
+    }
+ #sectiIONELECTRO  { grid-area: sectiIONELECTRO ;}
+   
+ 
+ #sectionelecTRO1 { grid-area: sectionelecTRO1 ; }
+  
+ #maiNelectrO    {grid-area:  maiNelectrO;   }
+
+}
+ */
+
+.grILLaElectro  {
+    border: solid 1px black;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto auto  ;
+    grid-template-columns: auto auto auto ;
+    grid-template-areas: "hederElEcTO hederElEcTO hederElEcTO hederElEcTO"
+                          " articlEelectrO articlEelectrO  articlEelectrO   articlEelectrO     "  
+                          "   maiNelectrO   maiNelectrO maiNelectrO maiNelectrO "
+                          "   FoterElectRo FoterElectRo FoterElectRo FoterElectRo  "
+
+                        }
+#hederElEcTO    {
+    grid-area: hederElEcTO;
+   
+}
+
+.articlEelectrO {
+    grid-area:  articlEelectrO;
+background-color: #f4d7c6;
+  
+  height: 718px;
+}
+
+
+#maiNelectrO    { 
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4d7c6;
+    grid-area:maiNelectrO ;
+ 
+    height:500px;
+}
+#FoterElectRo   {
+    grid-area:FoterElectRo ;
+}
+#sectiIONELECTRO    {
+    display: flex;
+    justify-content: space-around;
+}
+.imgElECtrO {
+
+  margin: 50px;
+  border: solid 1px black;
+}
+.PSeCtIONELECTRO    {
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+
+.UleLeCtro {
+    opacity: 0.7;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.LisEctionElectro   {
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imgmaINElecTRO {
+    margin-top: 50px;
+    height: 80%;
+}
+
+
+/* INFO CONTACTO */
+.FORMcontacTO   {
+        height: 500px;
+        display: flex;
+        background-image: lightblue;
+        background-image: linear-gradient(45deg, #ebd8c3, transparent);
+        justify-content: space-around;
+        align-items: center;
+    
+}
