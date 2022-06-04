@@ -236,7 +236,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 
 
 
-@media screen and (max-width:1216px)    { 
+@media screen and (max-width:1000px)    { 
   
     .header1 {
        
@@ -261,18 +261,36 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
         padding: 1px; 
         margin-top:40px;
     }
-    
+    .inicioh2 {
+        display: flex;
+     
+        color: rgb(0, 0, 0);
+        font-size: 60px;
+        /* margin-top: 200px; */
+        /* margin-right: 200px; */
+        margin-left: 200px;
+         margin-top: 150px;     }
+
     }
 
     @media screen and (max-width:800px)     {
         .article12 {
             display: flex;
-            justify-content: flex-start;
+          justify-content: flex-end;
             background-image: url(./super2.jpg);
             background-size: cover;
             opacity: 0.7;
             height: 350px;
         }
+
+        .ulli   {
+            display: flex;
+            border: solid 1px black;
+            
+           
+            border-radius: 7px;
+             padding: 6px;
+             margin: 14px   }
 
     }
 
@@ -595,6 +613,24 @@ background-color: #f4d7c6;
     margin-top: 50px;
     height: 80%;
 }
+
+/*  diseño respomsive electro */
+@media screen and (max-width:800px)     {
+
+
+       
+    .articlEelectrO {
+        grid-area:  articlEelectrO;
+    background-color: #f4d7c6;
+      width: 854px;
+      height: 718px;
+    }
+    
+  
+
+
+}
+
 
 
 /* INFO CONTACTO */
