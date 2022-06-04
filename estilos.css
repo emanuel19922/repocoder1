@@ -448,11 +448,12 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 .botoN1 {
     font-size:20px;
     font-weight: bolder;
-  
-    background-color:#c58d7c;
+   padding: 5px ;
+   margin: 48px;
     border: none;
-    border-radius: 20%;
-    margin-left: 10%;
+    border-radius: 5%;
+    border: solid 1px;
+   
 }
 /*  EMPIEZO A UZAR GRILLA */
 /* 
@@ -562,7 +563,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     grid-area:  articlEelectrO;
 background-color: #f4d7c6;
   
-  height: 718px;
+  height: 850px;
 }
 
 
@@ -590,10 +591,14 @@ background-color: #f4d7c6;
     margin-top: 100px;
     font-size: 30px;
     font-family: cursive;
+    transition: font-size 5s;
+   
+}
+.PSeCtIONELECTRO:hover  {
+    font-size: 60px ;
 }
 
-
-.UleLeCtro {
+.UleLeCtro  {
     opacity: 0.7;
     display: flex;
     list-style: none;
