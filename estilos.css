@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*  
 .griLLAindex    
      {
         
@@ -15,11 +16,11 @@
                             " footer1 footer1 footer1  "
                             " footer12 footer12 footer12 "
     }
-    
+     */
+ 
     .header1 {
        
         background: rgb(231,174,238);
-background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1) 100%);
         
         grid-area: header1 ;
        
@@ -32,23 +33,21 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     }
     
   
-    
-    
-    
-   
-
-/*  probando grilla
-.header1 {
-    background-color: #FBF8F1;
-    display : flex;
-
-    height: 168px;
-    
-    align-items: center;
-   justify-content: space-around;
+.imgLoGo1   {
+    width: 100px;
 }
-*/
+   
+#navbarNavAltMarkup {
+    justify-content: space-around;
 
+}
+.navbar-nav {
+    align-items: flex-end;
+}
+.nav-link   {
+    font-size: 30px;
+    margin: 10px;
+}
 .headerh1 {
     
     box-sizing: border-box;
@@ -97,63 +96,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     font-size: 40px ;
 }
 
-/* aca */
 
-
-
-
-/*
-@media screen and (max-width: 1210px)    {
-    
-    .header1 {
-        background-color: #FBF8F1;
-        display: flex;
-       
-        
-        flex-direction: column;
-        align-items: center;
-      }      
-}
-@media screen and (max-width:1210px){
-    .headerh1 {
-    
-        box-sizing: border-box;
-        font-size: -webkit-xxx-large;
-        padding: 20px;
-    
-        border: solid 1px black;
-      
-      
-           }
-      
-    
-}
-@media screen and (max-width:1210px)    {
-    
-    .ulli   {
-        display: flex;
-        border: solid 1px black;
-        
-       background-color: #F7ECDE;
-        border-radius: 7px;
-        
-         margin: 10px;  }
-    
-    
-    }
-@media screen and (max-width: 480px){
-
-  .header1 {
-    background-color: #FBF8F1;
-    display: flex;
-   
-    
-    flex-direction: column;
-    align-items: center;
-  }      
-}
- 
- */
 
 
 .sectION1 {
@@ -206,18 +149,6 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 }
 
 
-
-/* 
-.imagenprinci   {
-    display: flex;
-    
-    border-radius: 20px;
- margin-top: 5%;
-
-   width:100%;
-  
-}
- */
 .imagendivmaiN  {
     margin: 40px;
     height: 200px;
@@ -232,7 +163,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 .divgetwaves    {
  background-color:  #f4d7c6 ;
 }
-/* media queris */
+/* media queris
 
 
 
@@ -266,8 +197,8 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
      
         color: rgb(0, 0, 0);
         font-size: 60px;
-        /* margin-top: 200px; */
-        /* margin-right: 200px; */
+         margin-top: 200px; 
+         margin-right: 200px; 
         margin-left: 200px;
          margin-top: 150px;     }
 
@@ -294,7 +225,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 
     }
 
-
+    */
 
 /* mediaqueri
 @media  screen and (max-width:1000px){
@@ -337,6 +268,10 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 }
  */
 /*  */
+/* media queri  header inicio */
+
+   
+
 .footer1    {
     grid-area: footer1  ;
     display: flex;
