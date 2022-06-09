@@ -307,6 +307,17 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     border: 2px solids black
 
 }
+
+/* contcto */
+.FieldTconTCATo {
+    background-color:#a6a4a3  ;
+    
+        margin: 10%;
+        height: 500px;
+        width: 70%;
+    
+
+}
 .maincontacto   {
     display: flex;
     background-color: #85586F;
