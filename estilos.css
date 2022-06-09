@@ -270,7 +270,12 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 /*  */
 /* media queri  header inicio */
 
-   
+.sectionindX3   {
+    padding: 40px;
+}
+#dIvScTiOnCAru  {
+    padding: 120px;
+}
 
 .footer1    {
     grid-area: footer1  ;
