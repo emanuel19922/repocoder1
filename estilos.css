@@ -541,9 +541,9 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 
 }
  */
-
+/*              ELECTRO      */
 .grILLaElectro  {
-    border: solid 1px black;
+    
     height: 100vh;
     display: grid;
     grid-template-rows: auto auto auto auto  ;
