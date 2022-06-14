@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* fiambreriaaaaa */
+.lOgO__HEDEr    {
+    width: 200px;
+}
+
+.nav-item   {
+    margin-left: 30px;
+}
 .griLLAindex    
      {
         
@@ -176,8 +186,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     
 
  .articlE1  {
-   
-     background-color: #f4d7c6 ;
+    ;
  }
  
     
@@ -225,13 +234,8 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
    
 }
 
-.sectION1   {
-    background-color:#F7ECDE ;
-}
+ 
 
-.divgetwaves    {
- background-color:  #f4d7c6 ;
-}
 /* media queris */
 
 
@@ -391,11 +395,8 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
   
     
 }
-.ulfoter1   {
-  
-   
-    
-}
+
+
 .lifoter1 {
     list-style: none;
     font-size: 20px;
@@ -417,17 +418,23 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
   margin: 20px;
     
 }
+/* almacennnnnn */
+
+.almacenmain    {
+    display: flex;
+    justify-content: center;
+}
 .sectioNALMACEN {
-    background-color:  #f4d7c6;;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.sectioNalmaceN{
+
   
    
 
-}
+
 .imgsectionalmaceN  {
     width: 100%;
 }
