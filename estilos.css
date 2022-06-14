@@ -166,12 +166,17 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
  */
 
 
-.sectION1 {
- 
-    grid-area: sectION1;
-    display: flex;
-    flex-direction: column;
+.sectION1   {
+
+    background-color:4 ;
+
+
 }
+#diV__SECtion {
+    margin-top: 20px;
+    width: 70%;
+}
+   
 
 
     .article12 {
@@ -186,7 +191,8 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     
 
  .articlE1  {
-    ;
+   
+ 
  }
  
     
@@ -341,10 +347,35 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 }
  */
 /*  */
-.footer1    {
-    grid-area: footer1  ;
+.DivFoter12 {
     display: flex;
-    background-color: #EBD8C3;
+    justify-content: center;
+}
+.DIVh4__fOTER   {
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#f4f4f4 ;
+
+
+}
+.Ullist__fotter {
+   
+        display: flex;
+      
+        list-style: none;
+        width: 100%;
+        justify-content: space-around;
+       
+   
+}
+.footer1    {
+    
+    
+    grid-area: footer1  ;
+  
+    /* background-color: #59626a; */
     
 }
 .footer1p   {
@@ -568,7 +599,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 
 .articlEelectrO {
     grid-area:  articlEelectrO;
-background-color: #f4d7c6;
+
   
   height: 850px;
 }
@@ -577,7 +608,7 @@ background-color: #f4d7c6;
 #maiNelectrO    { 
     display: flex;
     justify-content: space-around;
-    background-color: #f4d7c6;
+   margin-top: 20px;
     grid-area:maiNelectrO ;
  
     height:500px;
