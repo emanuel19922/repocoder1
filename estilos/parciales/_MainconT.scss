@@ -1,5 +1,7 @@
+@import "./variables";
+
 .MainconT {
-    background-color:#FEFBF3 ;
+    background-color: $color;
    
     &__Fieldste  {
         border-radius: 2%;
