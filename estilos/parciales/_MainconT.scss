@@ -1,0 +1,21 @@
+.MainconT {
+    background-color:#FEFBF3 ;
+   
+    &__Fieldste  {
+        border-radius: 2%;
+        border: solid 1px;
+        margin-top: 50px;
+        margin-right: 10px;
+     }
+
+         &__Card  {
+         margin-top: 10px;
+          display: flex;
+         justify-content: center;
+           background-color:#f4eafd ;
+         margin-top: 60px;
+         border-radius: 5%;
+       }
+    
+
+}

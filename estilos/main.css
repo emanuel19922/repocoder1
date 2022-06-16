@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.MainconT {
+  background-color: #FEFBF3;
+}
+
+.MainconT__Fieldste {
+  border-radius: 2%;
+  border: solid 1px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.MainconT__Card {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f4eafd;
+  margin-top: 60px;
+  border-radius: 5%;
+}
+
+.Fotprinc {
+  background-color: #fefdfd;
+}
+
+.Fotprinc__compras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Fotprinc__li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.Pagos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.Pagos .pagos__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.lOgO {
+  width: 200px;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.divfootER {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
