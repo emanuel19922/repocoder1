@@ -1,15 +1,18 @@
-.Pagos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:#ffffff ;
+
+
+
+.Pagos {  
+ 
+  
+   @include box;
+    background-color: #ffffff;
+    
+    
      .pagos__lista {
 
-        display: flex;
-         list-style: none;
-         width: 100%;
-        justify-content: space-around;
-         }
+       @include box1;
     
+         }
+      
 
 }

@@ -1,5 +1,8 @@
+@import "./variables";
+
 .Fotprinc {
-    background-color:#fefdfd ;
+  background-color: map-get($map: $colores, $key: vase );
+  
    
     &__compras {
         display: flex;
@@ -7,10 +10,11 @@
         }
       
        &__li  {
+         color: map-get($map: $colores, $key:parrafo );
          list-style: none;
          font-size: 20px;
+
          }  
    
-  
-  
+       
 }

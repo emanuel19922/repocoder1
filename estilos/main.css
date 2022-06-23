@@ -10,9 +10,10 @@
 }
 
 .MainconT__Fieldste {
-  border-radius: 2%;
+  background-color: #D8CCA3;
   border: solid 1px;
   margin-top: 50px;
+  border-radius: 2%;
   margin-right: 10px;
 }
 
@@ -25,12 +26,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #f4eafd;
-  margin-top: 60px;
-  border-radius: 5%;
+  margin-top: 50px;
+  border-radius: 2%;
 }
 
 .Fotprinc {
-  background-color: #fefdfd;
+  background-color: #F9F9F9;
 }
 
 .Fotprinc__compras {
@@ -42,7 +43,8 @@
           justify-content: center;
 }
 
-.Fotprinc__li {
+.Fotprinc__li, .card-text {
+  color: #3a3434;
   list-style: none;
   font-size: 20px;
 }
@@ -65,10 +67,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  list-style: none;
+  width: 100%;
 }
 
 .lOgO {

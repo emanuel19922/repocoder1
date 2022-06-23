@@ -4,9 +4,11 @@
     background-color: $color;
    
     &__Fieldste  {
-        border-radius: 2%;
+      background-color: map-get($map: $colores, $key: formularios);
+       
         border: solid 1px;
         margin-top: 50px;
+        border-radius: 2%;
         margin-right: 10px;
      }
 
@@ -15,9 +17,13 @@
           display: flex;
          justify-content: center;
            background-color:#f4eafd ;
-         margin-top: 60px;
-         border-radius: 5%;
+         margin-top: 50px;
+         border-radius: 2%;
        }
     
+
+}
+.card-text  {
+  @extend .Fotprinc__li;
 
 }
