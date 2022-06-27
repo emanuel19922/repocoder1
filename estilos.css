@@ -199,9 +199,9 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    margin: 30px;
+    margin: 100px;
 }
+   
     
 
 .inicioh2 {
@@ -620,11 +620,11 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     margin-top: 100px;
     font-size: 30px;
     font-family: cursive;
-    transition: font-size 5s;
+    
    
 }
 .PSeCtIONELECTRO:hover  {
-    font-size: 60px ;
+ 
 }
 
 .UleLeCtro  {
@@ -686,4 +686,13 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 }
 .FieldTconTCATo {
  
+}
+.imgsect__articlealm    {
+    display: flex;
+    justify-content: center;
+}
+
+.imgsect__almacenfoto {
+    width: 80%;
+    margin-top: 50px;
 }

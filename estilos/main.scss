@@ -1,14 +1,17 @@
 @import "./parciales/variables";
 @import "./parciales/mixins";
 @import "./parciales/reset";
+
 @import "./parciales/MainconT";
 @import "./parciales/Fotprinc";
 @import "./parciales/pagostarjetas";
+@import "./parciales/sectionindex";
+@import "./parciales/electro";
 
 
-
+ 
 .lOgO   {
-    width: 200px;
+    width: 400px;
     }
 
 .nav-item   {

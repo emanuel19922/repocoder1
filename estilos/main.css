@@ -73,8 +73,34 @@
   width: 100%;
 }
 
+.Items {
+  height: 300px;
+}
+
+.Items__uls {
+  margin-top: 100px;
+}
+
+.Items__lis1 {
+  list-style: none;
+}
+
+.divelectro_cequeodiv {
+  margin-top: 50px;
+  height: 500px;
+}
+
+.divelectro_cequeodiv .divelectro_cequeodiv_chequeo {
+  border-radius: 1%;
+  padding: 30px;
+  border: solid 1px;
+  width: 70%;
+  height: 500px;
+  background-color: #FCFFE7;
+}
+
 .lOgO {
-  width: 200px;
+  width: 400px;
 }
 
 .nav-item {
