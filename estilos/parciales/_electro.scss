@@ -6,23 +6,54 @@
 
     }
     &_cequeodiv   {
+        margin-left: 5px;
+        border: solid 1px;
         margin-top: 50px;
-        height: 500px;
+        height: 550px;
+        @media screen and (max-width:1024px)    {
+            display: flex;
+            justify-content: center;
+            border: none;
+            
+        }
    
         .divelectro_cequeodiv_chequeo   {
                 border-radius: 1%;
                 padding: 30px;
-                border: solid 1px;
+                
                 width: 70%;
                 height: 500px;
                 background-color: #FCFFE7 ;
-            
+              
 
-        }
-   
-   
+                 }
+                 @media screen and (max-width:1024px)    {
+                    .divelectro_cequeodiv_chequeo   {
+                     border: solid 1px;
+                     width: 40%;
+                      
+        
+                         }
+
+
+                }
+                
+      
     }
+    .divelectro__columdere  {
+        margin-right: 150px;
+    }
+
    
 }
    
-        
+.imgelectro {
+
+        .imgelectro_arti    {
+
+        }
+        .imgelectro__img    {
+            width: 100%;
+            height: 250px;
+        }
+}
