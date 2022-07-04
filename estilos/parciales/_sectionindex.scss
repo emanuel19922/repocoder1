@@ -1,27 +1,24 @@
 
 .DivimG {
-display: flex;
-flex-direction: column;
-align-items: center;
+
+.DivimG_hrfe    {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
 
     .DivimG__HEDEr  {
         width: 140px;
 
     }
     .DivimG__TitLe  {
+        
         color: beige;
 
     }
-    
-@media screen and (max-width:1024px)    {
-    .DivimG__TitLe  {
-        color: beige;
-        width: 50%;
-
-    }
-
-
-}
 
 }
 
@@ -40,3 +37,28 @@ align-items: center;
 
     }
     }
+
+.Ullist__fOTER  {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f4f4f4 ;
+
+    .Ullist__fotter {
+        display: flex;
+      
+        list-style: none;
+        width: 100%;
+        justify-content: space-around;
+       
+
+    }
+    @media screen and (max-width:768px) {
+    .Ullist__pagos  {
+      
+        margin: 10px;
+
+    }
+}
+}

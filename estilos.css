@@ -346,25 +346,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     display: flex;
     justify-content: center;
 }
-.DIVh4__fOTER   {
-   
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color:#f4f4f4 ;
 
-
-}
-.Ullist__fotter {
-   
-        display: flex;
-      
-        list-style: none;
-        width: 100%;
-        justify-content: space-around;
-       
-   
-}
 .footer1    {
     
     

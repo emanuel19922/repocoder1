@@ -11,6 +11,7 @@
 
 .MainconT__Fieldste {
   background-color: #D8CCA3;
+  padding: 30px;
   border: solid 1px;
   margin-top: 50px;
   border-radius: 2%;
@@ -73,10 +74,12 @@
   width: 100%;
 }
 
-.DivimG {
+.DivimG .DivimG_hrfe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -84,6 +87,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
 }
 
 .DivimG .DivimG__HEDEr {
@@ -92,13 +96,6 @@
 
 .DivimG .DivimG__TitLe {
   color: beige;
-}
-
-@media screen and (max-width: 1024px) {
-  .DivimG .DivimG__TitLe {
-    color: beige;
-    width: 50%;
-  }
 }
 
 .Items {
@@ -113,6 +110,36 @@
 
 .Items__lis1 {
   list-style: none;
+}
+
+.Ullist__fOTER {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f4f4f4;
+}
+
+.Ullist__fOTER .Ullist__fotter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .Ullist__fOTER .Ullist__pagos {
+    margin: 10px;
+  }
 }
 
 .divelectro_cequeodiv {
@@ -158,8 +185,13 @@
   height: 250px;
 }
 
-.lOgO {
-  width: 200px;
+.secbebe {
+  height: 300px;
+}
+
+.secbebe .secbeb__img23 {
+  height: 270px;
+  width: 100%;
 }
 
 .nav-item {

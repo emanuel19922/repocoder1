@@ -5,7 +5,7 @@
    
     &__Fieldste  {
       background-color: map-get($map: $colores, $key: formularios);
-       
+        padding: 30px;
         border: solid 1px;
         margin-top: 50px;
         border-radius: 2%;
