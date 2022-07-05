@@ -301,47 +301,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 
 
 
-/* mediaqueri
-@media  screen and (max-width:1000px){
-    .imagenprinci   {
-        display: flex;
-        
-        border-radius: 20px;
-     margin-top: 5%;
-      margin-left: 2px;
-      margin-right: 50px;
-       width: 880px;    }
-    
-}
-@media screen and (max-width:1000px){
-    .inicioh2 {
-        display: flex;
-        position: absolute;
-        
-        font-size: 50px;
-        
-        
-        margin-left:0px;
-        margin-top: 100px;
-        
-    }
-    
-}
 
-@media screen and (max-width: 480px)    {
-    .inicioh2 {
-        display: flex;
-        position: absolute;
-        
-        font-size:30px;
-     
-        margin-left: 100px;
-        margin-top: 50px;
-        
-    }
-}
- */
-/*  */
 .DivFoter12 {
     display: flex;
     justify-content: center;
@@ -466,92 +426,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
     border: solid 1px;
    
 }
-/*  EMPIEZO A UZAR GRILLA */
-/* 
-.BORDEELECTRO   {
-
-    border: solid 1px black;
-} */
-/* 
-.articlEelectrO {
-    background-color: #F7ECDE;
-    height: 100vh;
-    display: grid;
-   
-    grid-template-rows:400px auto 5fr 20fr 30fr;
-  grid-template-columns:30% 50% auto  5fr 20fr;
-  grid-template-areas: "sectiIONELECTRO  maiNelectrO maiNelectrO  "
-                        "sectiIONELECTRO  maiNelectrO maiNelectrO  "
-                        "sectiIONELECTRO  sectionelecTRO1 sectionelecTRO1  "
-                       " SecTIonelectro2   SecTIonelectro2 SecTIonelectro2 "
-                       " footer1     footer1   footer1     "
-}
-
-
-
-#sectiIONELECTRO    {
-   grid-area: sectiIONELECTRO;
-   display: flex;
-   width: 100%;
-
-  
-}
-#sectionelecTRO1    {
-    grid-area: sectionelecTRO1 ;
-}
-
-#maiNelectrO    {
-    grid-area:maiNelectrO ;
-}
  
-#SecTIonelectro2    {
-    grid-area: SecTIonelectro2 ;
-}
-
-#FoterElectRo   {
-    grid-area:footer1 ;
-}
-.imgelctrO1     {
-    width: 100%;
-    
-}
- 
-.ulImageS   {
-    display: flex;
-    list-style-type: none;
-}
-
-.liImageS   {
-    width: 100%;
-    
-  
-}
-.imGsecTIon {
-    width: 100%;
-}
-@media screen and (max-width:900px) {
-
-    .articlEelectrO {
-        background-color: #F7ECDE;
-        height: 100vh;
-        display: grid;
-       
-        grid-template-rows:400px auto 5fr;
-      grid-template-columns:30% 50% auto;
-      grid-template-areas: "sectiIONELECTRO   sectiIONELECTRO sectiIONELECTRO "
-                            " sectionelecTRO1  sectionelecTRO1 sectionelecTRO1 "
-                            " maiNelectrO   maiNelectrO  maiNelectrO"
-                           
-    }
- #sectiIONELECTRO  { grid-area: sectiIONELECTRO ;}
-   
- 
- #sectionelecTRO1 { grid-area: sectionelecTRO1 ; }
-  
- #maiNelectrO    {grid-area:  maiNelectrO;   }
-
-}
- */
 /*              ELECTRO      */
 .grILLaElectro  {
     
@@ -581,7 +456,7 @@ background: radial-gradient(circle, rgba(231,174,238,1) 41%, rgba(224,222,240,1)
 #maiNelectrO    { 
     display: flex;
     justify-content: space-around;
-   margin-top: 20px;
+    margin: 50px;
     grid-area:maiNelectrO ;
  
     height:500px;
